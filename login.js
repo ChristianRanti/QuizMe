@@ -1,0 +1,10 @@
+function login() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    if (username === "student" && password === "tridarma") {
+      window.location.href = "./level.html";
+    } else {
+      alert("Username atau password salah");
+    }
+  }
